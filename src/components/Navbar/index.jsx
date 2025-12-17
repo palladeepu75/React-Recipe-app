@@ -2,7 +2,6 @@ import { styled, alpha } from "@mui/material/styles";
 import {AppBar, Box, Toolbar, Typography } from "@mui/material";
 import InputBase from '@mui/material/InputBase';
 import SearchIcon from '@mui/icons-material/Search';
-import SelectorComponent from "../SelectorComponent";
 import { useDispatch,useSelector} from "react-redux";
 import { setSearchValue, setTypes } from "../../slice/movieSlice";
 // import { getRecipeBySearch } from "../../api/movies";
@@ -100,8 +99,6 @@ export default function Navbar() {
           </Search>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: "none", md: "flex" } }}></Box>
-          <SelectorComponent name='Types' value={types}/>
-          <SelectorComponent name='Ratings' value={[]}/>
         </Toolbar>
       </AppBar>
     </Box>

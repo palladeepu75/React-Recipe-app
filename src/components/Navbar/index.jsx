@@ -86,7 +86,7 @@ export default function Navbar() {
             component="div"
             sx={{ display: { xs: "none", sm: "block" } }}
           >
-            Movie Recipes App
+           Recipes App
           </Typography>
           <Search onChange={onSearchChange}>
             <SearchIconWrapper>

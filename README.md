@@ -54,7 +54,6 @@ recipe-app/
 
 ```bash
 git clone https://github.com/palladeepu75/React-Recipe-app.git
-cd recipe-app
 ```
 
 ### 2️⃣ Install dependencies
